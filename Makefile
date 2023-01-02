@@ -1,6 +1,7 @@
 help:
-	@echo "some help -)"
+	@echo "usage: precreation"
 	
 precreation:
-	@echo "KREATOR!!1"
+	@echo "rise X-bit for ./scripts/*.sh"
+	@chmod +x ./scripts/*.sh
 	
