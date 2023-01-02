@@ -2,4 +2,4 @@
 
 set -e
 
-mkdir ../newROOT
+mkdir ./newROOT
