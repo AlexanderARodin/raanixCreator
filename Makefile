@@ -1,8 +1,13 @@
 help:
 	@echo "usage: precreation"
 	
-precreation:
+precreation: activate-scripts
+	./scripts/precreation.sh
+	
+
+
+
+activate-scripts:
 	@echo "rise X-bit for ./scripts/*.sh"
 	@chmod +x ./scripts/*.sh
-	./scripts/precreation.sh
 	
