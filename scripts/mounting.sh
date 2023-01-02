@@ -2,5 +2,4 @@
 
 set -e
 
-echo "intro.."
-mkdir newROOT
+mount /dev/sdb1 ./newROOT
