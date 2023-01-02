@@ -2,8 +2,10 @@
 
 set -e
 
+echo "mounting newROOT.."
 mount /dev/sdb1 ./newROOT
 
+echo "mountin /boot into /newROOT.."
 if [ -d "newROOT/boot" ]; then
 	mkdir ./newROOT/boot
 fi
