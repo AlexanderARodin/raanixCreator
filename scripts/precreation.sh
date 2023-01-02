@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
+set -e
+
 echo "intro.."
-pwd
+mkdir ../newROOT
