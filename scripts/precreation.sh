@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+umount /dev/sda1
+umount /dev/sdb1
+
 set -e
 
 mkdir ./newROOT
