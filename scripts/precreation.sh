@@ -5,7 +5,12 @@ umount /dev/sdb1
 
 set -e
 
-mkdir ./newROOT
+if [ -d "./newROOT" ]; then
+	echo "+"
+else
+	echo ".."
+	mkdir ./newROOT
+fi
 
 apt install -y cifs-utils
 if [ -d "/home/netexch" ]; then
